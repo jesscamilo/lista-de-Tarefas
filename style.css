@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2cd99;
+    margin: 0;
+    padding: 20px;
+}
+
+.ToDoList {
+    max-width: 400px;
+    margin: auto;
+    color: rgb(0, 0, 0);
+    background-color: #414b41;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #fa9304;
+    border-radius: 4px;
+    margin-left: 4px;
+}
+
+button {
+    padding: 11px;
+    border: none;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+button:hover {
+    color: white;
+    background-color: #35be3c;
+    transform: scale(1.01);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    background-color: rgba(230, 135, 135, 0.336);
+    color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #060606;
+}
+
+.remove-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.remove-button:hover {
+    background-color: #c82333;
+}
